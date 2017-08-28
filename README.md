@@ -10,7 +10,7 @@
 
 ## Introduction
 
-In the PHP world in general, there is a standard (recommendation) when it comes to HTTP messages: PSR-7.
+In the PHP world in general, there is a standard (recommendation) when it comes to HTTP messages: [PSR-7](http://www.php-fig.org/psr/psr-7/).
 Despite things like Calypso, Gutenberg and the growing JavaScript codebase in general, WordPress is written in PHP.
 Thus, wouldn’t it be nice to do what the rest of the PHP world is doing?
 Isn’t there some way to leverage all the existing PSR-7 middleware and incorporate them into your (RESTful) WordPress projects?
