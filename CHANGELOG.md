@@ -22,7 +22,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Security
 - 
 
-## 1.0.0 - 2017-08-24
+## 1.0.0 - 2017-08-28
 Initial release.
 
 ----
