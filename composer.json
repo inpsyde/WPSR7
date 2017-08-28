@@ -1,0 +1,67 @@
+{
+  "name": "inpsyde/wpsr7",
+  "description": "PSR-7-compliant HTTP messages for WordPress.",
+  "type": "library",
+  "keywords": [
+    "http",
+    "interop",
+    "middleware",
+    "psr",
+    "psr7",
+    "rest",
+    "standard",
+    "wordpress",
+    "wp"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Inpsyde GmbH",
+      "email": "hello@inpsyde.com",
+      "homepage": "https://inpsyde.com",
+      "role": "Company"
+    },
+    {
+      "name": "Thorsten Frommen",
+      "email": "t.frommen@inpsyde.com",
+      "homepage": "https://twitter.com/thorstenfrommen",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/inpsyde/WPSR7/issues",
+    "source": "https://github.com/inpsyde/WPSR7"
+  },
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/psr7": "~1.0",
+    "psr/http-message": "~1.0"
+  },
+  "require-dev": {
+    "brain/monkey": "^2.0.0",
+    "johnpbloch/wordpress-core": "^4.7.0",
+    "mockery/mockery": "~0.9.0",
+    "phpunit/phpunit": "^6.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inpsyde\\WPSR7\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "vendor/johnpbloch/wordpress-core/wp-includes/class-wp-http-response.php",
+      "vendor/johnpbloch/wordpress-core/wp-includes/rest-api/class-wp-rest-request.php",
+      "vendor/johnpbloch/wordpress-core/wp-includes/rest-api/class-wp-rest-response.php"
+    ],
+    "psr-4": {
+      "Inpsyde\\WPSR7\\Tests\\Integration\\": "tests/php/integration",
+      "Inpsyde\\WPSR7\\Tests\\Unit\\": "tests/php/unit"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
