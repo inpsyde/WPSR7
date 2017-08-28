@@ -3,11 +3,11 @@
 namespace Inpsyde\WPSR7\Tests\Integration\REST;
 
 use GuzzleHttp\Psr7\UploadedFile;
-use function GuzzleHttp\Psr7\uri_for;
 use Inpsyde\WPSR7\REST\Request as Testee;
 use Inpsyde\WPSR7\Tests\Integration\TestCase;
 
 use function GuzzleHttp\Psr7\stream_for;
+use function GuzzleHttp\Psr7\uri_for;
 
 /**
  * Test case for the request class.
