@@ -8,6 +8,9 @@
 
 > PSR-7-compliant HTTP messages for WordPress.
 
+## Note
+> **Currently we don't support, maintain the solution. However feel free to use, enhance the library to makes more completely in the PSR7 context.**
+
 ## Introduction
 
 In the PHP world in general, there is a standard (recommendation) when it comes to HTTP messages: [PSR-7](http://www.php-fig.org/psr/psr-7/).
